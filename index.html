@@ -1,152 +1,315 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Lewis Karimi's Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101916">
+  <meta name="description" content="Lewis M. Karimi — Telecommunications and Information Engineering graduate exploring IT, data, and internship opportunities in Nairobi, Kenya.">
+  <title>Lewis M. Karimi | IT &amp; Data Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+  <!-- Site header and primary navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="#home" aria-label="Lewis M. Karimi, home">LK<span>.</span></a>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" type="button" aria-label="Switch to light theme" title="Switch theme">
+          <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path>
+          </svg>
+          <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20.2 15.1A8.4 8.4 0 0 1 8.9 3.8 8.5 8.5 0 1 0 20.2 15.1Z"></path>
+          </svg>
+        </button>
+        <a class="button button-small button-outline header-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </header>
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>LEWIS KARIMI<br />
-						PORTFOLIO</h1>
-						<p>I am an aspiring data analyst skilled in SQL, Python, Excel and Power BI <a href="www.linkedin.com/in/lewis-karimi-470972231">@Karimilewis</a></p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+  <main id="main-content">
+    <!-- Introductory hero with primary calls to action -->
+    <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> OPEN TO IT, DATA &amp; INTERNSHIP ROLES</p>
+          <h1 id="hero-title">Hi, I’m <span class="accent-text">Lewis M. Karimi.</span></h1>
+          <p class="hero-headline">Telecommunications graduate connecting technology, data, and real-world problem solving.</p>
+          <p class="hero-location">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>
+            Nairobi, Kenya <span class="location-divider" aria-hidden="true">/</span> JKUAT graduate
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View projects <span aria-hidden="true">↗</span></a>
+            <a class="button button-outline" href="#contact">Contact me</a>
+            <a class="button button-outline button-download" href="Lewis-Karimi-CV.pdf" download>Download CV <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-socials" aria-label="Social profiles">
+            <a href="https://github.com/lewylewie" target="_blank" rel="noreferrer" aria-label="GitHub (replace placeholder link)">GitHub <span aria-hidden="true">↗</span></a>
+            <a href="https://linkedin.com/in/lewiskarimi" target="_blank" rel="noreferrer" aria-label="LinkedIn (replace placeholder link)">LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="visual-glow"></div>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="visual-card">
+            <div class="visual-card-top"><span></span><span></span><span></span><span class="visual-card-label">SYSTEMS / DATA / NETWORKS</span></div>
+            <div class="visual-code">
+              <p><span class="code-muted">01</span> <span class="code-purple">class</span> <span class="code-blue">Engineer</span>:</p>
+              <p><span class="code-muted">02</span> &nbsp;<span class="code-purple">def</span> <span class="code-yellow">build</span>(self):</p>
+              <p><span class="code-muted">03</span> &nbsp;&nbsp;<span class="code-purple">return</span> <span class="code-green">"what matters"</span></p>
+              <p class="code-cursor-line"><span class="code-muted">04</span> <span class="code-cursor"></span></p>
+            </div>
+            <div class="visual-card-bottom"><span class="terminal-dot"></span> CURIOUS BY DESIGN</div>
+          </div>
+          <span class="visual-label visual-label-top">BUILT FOR WHAT’S NEXT</span>
+          <span class="visual-label visual-label-bottom">01 / 03</span>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about"><span aria-hidden="true"></span> SCROLL TO EXPLORE</a>
+    </section>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">PORTFOLIO</a>
-					</header>
+    <!-- Short personal introduction -->
+    <section class="section-shell section-border" id="about" aria-labelledby="about-title">
+      <div class="container section-grid">
+        <div class="section-intro">
+          <p class="eyebrow">01 — A LITTLE ABOUT ME</p>
+          <h2 id="about-title">Curiosity meets <span class="accent-text">engineering.</span></h2>
+          <figure class="about-portrait">
+            <img src="images/lewis-karimi.jpeg" alt="Lewis M. Karimi in his JKUAT graduation gown and cap." width="768" height="1152" loading="lazy">
+          </figure>
+        </div>
+        <div class="about-content">
+          <p class="about-lead">I’m a recent Telecommunications and Information Engineering graduate from JKUAT, based in Nairobi, Kenya.</p>
+          <p class="body-copy">My experience spans network support, embedded systems, and hands-on engineering labs. I enjoy learning how technology works from the ground up and using data and practical problem-solving to make it work better. I’m currently looking for opportunities in IT, data, and internships where I can contribute, keep learning, and grow with a team.</p>
+          <div class="about-facts">
+            <div><span class="fact-value">JKUAT</span><span class="fact-label">BSc graduate</span></div>
+            <div><span class="fact-value">Nairobi</span><span class="fact-label">Kenya</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-						
-						</ul>
-						<ul class="icons">
-								<li><a href="https://www.linkedin.com/in/lewis-karimi-470972231/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://github.com/lewylewie" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+    <!-- Skills grouped by professional focus -->
+    <section class="section-shell section-border" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">02 — MY TOOLKIT</p>
+            <h2 id="skills-title">Skills &amp; <span class="accent-text">technologies.</span></h2>
+          </div>
+          <p class="section-note">Tools I’ve worked with across coursework, attachments, and projects.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="skill-index">01</span>
+            <h3>Programming</h3>
+            <ul class="tag-list"><li>Python</li><li>C / C++</li><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+          </article>
+          <article class="skill-card">
+            <span class="skill-index">02</span>
+            <h3>Data &amp; Analytics</h3>
+            <ul class="tag-list"><li>SQL</li><li>Power BI</li><li>Excel</li></ul>
+          </article>
+          <article class="skill-card">
+            <span class="skill-index">03</span>
+            <h3>Networking</h3>
+            <ul class="tag-list"><li>Cisco Packet Tracer</li></ul>
+          </article>
+          <article class="skill-card">
+            <span class="skill-index">04</span>
+            <h3>Embedded / IoT</h3>
+            <ul class="tag-list"><li>Arduino</li><li>ESP32</li></ul>
+          </article>
+          <article class="skill-card">
+            <span class="skill-index">05</span>
+            <h3>Tools</h3>
+            <ul class="tag-list"><li>Git</li><li>Linux</li><li>Windows</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
 
-				<!-- Main -->
-					<div id="main">
+    <!-- Project categories keep different kinds of work easy to browse. -->
+    <section class="section-shell section-border" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">03 — SELECTED WORK</p>
+            <h2 id="projects-title">Projects with <span class="accent-text">purpose.</span></h2>
+          </div>
+          <p class="section-note">Browse my Power BI dashboards and Python / pandas projects. I’m adding to this collection as I build.</p>
+        </div>
+        <div class="project-filters" role="group" aria-label="Filter projects by category">
+          <button class="project-filter is-active" type="button" data-filter="all" aria-pressed="true">All projects</button>
+          <button class="project-filter" type="button" data-filter="power-bi" aria-pressed="false">Power BI</button>
+          <button class="project-filter" type="button" data-filter="python-pandas" aria-pressed="false">Python / pandas</button>
+        </div>
+        <p class="project-results" aria-live="polite">Showing all projects.</p>
+        <div class="projects-grid">
+          <!-- To add a pandas project, copy a card with data-category="python-pandas" and edit its title, description, tags, and GitHub URL. -->
+          <article class="project-card" data-category="python-pandas">
+            <div class="project-topline"><span class="project-number">PROJECT 01</span><span class="project-kind">PYTHON / PANDAS</span></div>
+            <div class="project-art churn-art" aria-hidden="true">
+              <div class="chart-lines"><span></span><span></span><span></span><span></span></div>
+              <div class="chart-columns"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <span class="chart-caption">CUSTOMER RETENTION / ANALYSIS</span>
+            </div>
+            <div class="project-copy">
+              <h3>Telco Customer Churn Analysis</h3>
+              <p>Analyze customer churn patterns and explore the factors that may influence retention. <span class="placeholder-copy">[Add your findings and project details here.]</span></p>
+              <ul class="tag-list project-tags"><li>Python</li><li>pandas</li><li>seaborn</li></ul>
+              <a class="text-link" href="[YOUR TELCO CHURN PROJECT GITHUB URL HERE]" target="_blank" rel="noreferrer">View on GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <!-- Duplicate this clearly marked card when you have another pandas project to showcase. -->
+          <article class="project-card" data-category="python-pandas">
+            <div class="project-topline"><span class="project-number">PROJECT 02</span><span class="project-kind">PYTHON / PANDAS</span></div>
+            <div class="project-art churn-art" aria-hidden="true">
+              <div class="chart-lines"><span></span><span></span><span></span><span></span></div>
+              <div class="chart-columns"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <span class="chart-caption">YOUR NEXT DATA PROJECT</span>
+            </div>
+            <div class="project-copy">
+              <h3>PROJECT LOADING...</h3>
+              <p>[I am currently working on a project on Jupyter Notebook.. Looking forward to uploading it.]</p>
+              <ul class="tag-list project-tags"><li>Python</li><li>pandas</li><li>matplotlib</li><li>seaborn</li></ul>
+              <a class="text-link" href="[YOUR PROJECT GITHUB URL HERE]" target="_blank" rel="noreferrer">View on GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card" data-category="power-bi">
+            <div class="project-topline"><span class="project-number">PROJECT 03</span><span class="project-kind">POWER BI</span></div>
+            <div class="project-art powerbi-art sales-art" aria-hidden="true">
+              <div class="chart-lines"><span></span><span></span><span></span><span></span></div>
+              <div class="chart-columns"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <span class="chart-caption">CAR SALES / REGIONS &amp; TIME</span>
+            </div>
+            <div class="project-copy">
+              <h3>Car Sales Dashboard</h3>
+              <p>A dynamic dashboard for visualizing car sales data across different regions and time periods.</p>
+              <ul class="tag-list project-tags"><li>Power BI</li></ul>
+              <a class="text-link" href="https://github.com/lewylewie/car-sales-dashboard" target="_blank" rel="noreferrer">View on GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card" data-category="power-bi">
+            <div class="project-topline"><span class="project-number">PROJECT 04</span><span class="project-kind">POWER BI</span></div>
+            <div class="project-art powerbi-art hr-art" aria-hidden="true">
+              <div class="hr-donut"></div>
+              <div class="hr-legend"><span></span><span></span><span></span></div>
+              <span class="chart-caption">WORKFORCE / PEOPLE ANALYTICS</span>
+            </div>
+            <div class="project-copy">
+              <h3>HR Analytics Dashboard</h3>
+              <p>An end-to-end HR analytics project tracking workforce demographics, employee turnover, and job satisfaction across organizational levels.</p>
+              <ul class="tag-list project-tags"><li>Power BI</li></ul>
+              <a class="text-link" href="https://github.com/lewylewie/HR-Analytics-Dashboard" target="_blank" rel="noreferrer">View on GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card" data-category="power-bi">
+            <div class="project-topline"><span class="project-number">PROJECT 05</span><span class="project-kind">POWER BI</span></div>
+            <div class="project-art powerbi-art shopify-art" aria-hidden="true">
+              <div class="shopify-metric"><span>$</span><strong>4.18M</strong><small>NET SALES</small></div>
+              <div class="shopify-metric"><strong>4,431</strong><small>CUSTOMERS</small></div>
+              <div class="shopify-metric"><strong>46%</strong><small>REPEAT RATE</small></div>
+              <span class="chart-caption">E-COMMERCE / CUSTOMER INSIGHTS</span>
+            </div>
+            <div class="project-copy">
+              <h3>Shopify Analysis</h3>
+              <p>An e-commerce dashboard tracking $4.18M in net sales, customer segments, repeat rate, US province mappings, payment gateways, and interactive navigation.</p>
+              <ul class="tag-list project-tags"><li>Power BI</li></ul>
+              <a class="text-link" href="https://github.com/lewylewie/shopify-analysis-dashboard" target="_blank" rel="noreferrer">View on GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card" data-category="power-bi">
+            <div class="project-topline"><span class="project-number">PROJECT 06</span><span class="project-kind">POWER BI</span></div>
+            <div class="project-art powerbi-art hospital-art" aria-hidden="true">
+              <div class="hospital-stat"><span>ER VISITS</span><strong>↗</strong></div>
+              <div class="hospital-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <span class="chart-caption">HOSPITAL / EMERGENCY OPERATIONS</span>
+            </div>
+            <div class="project-copy">
+              <h3>Hospital Dashboard</h3>
+              <p>An interactive dashboard analyzing emergency room patient volume, wait times, and key operational performance metrics.</p>
+              <ul class="tag-list project-tags"><li>Power BI</li></ul>
+              <a class="text-link" href="https://github.com/lewylewie/Hospital-dashboard" target="_blank" rel="noreferrer">View on GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-						
-									<h2> Car Sales Dashboard<br /></h2>
-									<p>A dynamic dashboard for visualizing car sales data across different regions and time periods.</p>
-								</header>
-								<a href="#" class="image main"><img src="images/car sales.png" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://github.com/lewylewie/car-sales-dashboard" class="button large">View Project</a></li>
-								</ul>
-							</article>
+    <!-- Career timeline for the three engineering attachments -->
+    <section class="section-shell section-border" id="experience" aria-labelledby="experience-title">
+      <div class="container section-grid">
+        <div class="section-intro">
+          <p class="eyebrow">04 — WHERE I’VE LEARNED</p>
+          <h2 id="experience-title">Experience &amp; <span class="accent-text">learning.</span></h2>
+          <p class="section-note">Practical experience across healthcare IT, embedded systems, and engineering labs.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <p class="timeline-date">JAN — MAY 2024 <span>· 5 MONTHS</span></p>
+            <h3>Network Support Attachment</h3>
+            <p class="timeline-org">Kerugoya General Hospital <span>·</span> Kenya</p>
+            <p class="timeline-description">Gained hands-on exposure to IT and network support in a healthcare environment.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <p class="timeline-date">JAN — MAY 2023 <span>· 5 MONTHS</span></p>
+            <h3>Embedded / IoT Attachment</h3>
+            <p class="timeline-org">Gearbox Kenya <span>·</span> Nairobi</p>
+            <p class="timeline-description">Built practical experience with embedded systems and IoT in a hardware innovation setting.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-marker" aria-hidden="true"></span>
+            <p class="timeline-date">JAN — MAY 2022 <span>· 5 MONTHS</span></p>
+            <h3>Engineering Labs Attachment</h3>
+            <p class="timeline-org">Jomo Kenyatta University of Agriculture and Technology <span>·</span> JKUAT</p>
+            <p class="timeline-description">Developed practical engineering skills through work in university laboratories.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<h2> HR Analytics Dashboard </h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/HR PROJECT SNAP.png" alt="" /></a>
-									<p> An end-to-end Human Resources Business Intelligence project designed to track workforce demographics, measure employee turnover patterns, and evaluate job satisfaction across organizational levels. </p>
-									<ul class="actions special">
-										<li><a href="https://github.com/lewylewie/HR-Analytics-Dashboard" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2> Shopify Analysis</h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/shopify snapshot.png" alt="" /></a>
-									<p>An end-to-end Power BI e-commerce dashboard tracking $4.18M in net sales. Features customer segmentation analyzing 4,431 users, a 46% repeat rate, geographic US province mappings, payment gateway breakdowns, and interactive page navigation.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/lewylewie/shopify-analysis-dashboard" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2>Hospital Dashboard</h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/hospital snapshot.png" alt="" /></a>
-									<p>An Interactive Power BI dashboard analyzing hospital emergency room operations — patient volume, wait times, and key ER performance metrics.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/lewylewie/Hospital-dashboard" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2>MORE PROJECTS COMING SOON</h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>Project loading...</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">View Project</a></li>
-									</ul>
-								</article>
-							
+    <!-- Contact links; this site intentionally does not collect form submissions -->
+    <section class="section-shell section-border contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-inner">
+        <p class="eyebrow">05 — OPEN TO OPPORTUNITIES</p>
+        <h2 id="contact-title">Let’s build something <span class="accent-text">useful.</span></h2>
+        <p class="contact-copy">I’m currently looking for IT, data, and internship opportunities. Have a role or project in mind? I’d love to hear from you.</p>
+        <a class="button button-primary contact-cta" href="mailto:lewismuriuki100@gmail.com">Get in touch <span aria-hidden="true">↗</span></a>
+        <div class="contact-links">
+          <a href="mailto:lewismuriuki100@gmail.com"><span class="contact-label">EMAIL</span><span>lewismuriuki100@gmail.com ↗</span></a>
+          <a href="https://linkedin.com/in/lewiskarimi" target="_blank" rel="noreferrer"><span class="contact-label">LINKEDIN</span><span>Connect with me ↗</span></a>
+          <a href="https://github.com/lewylewie" target="_blank" rel="noreferrer"><span class="contact-label">GITHUB</span><span>See my code ↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						s
-						<section class="split contact">
-							<section class="alt">
-								<h3>Location</h3>
-								<p>Nairobi, Kenya</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(254) 706291853</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">lewismuriuki100@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/lewis-karimi-470972231/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/lewylewie" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+  <!-- Footer with automatically updated copyright year -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="wordmark" href="#home" aria-label="Back to top">LK<span>.</span></a>
+      <p>Designed &amp; built by Lewis M. Karimi <span aria-hidden="true">·</span> <span id="current-year">2026</span></p>
+      <a class="back-to-top" href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
 </html>
